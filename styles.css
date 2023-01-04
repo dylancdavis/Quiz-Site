@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgb(246, 246, 250), rgb(166, 166, 166));
+    background-attachment: fixed; /*edit*/
+}
+
+.paperBackground {
+    font-family: "Open Sans";
+    border-radius: 16px;
+    text-align: center;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.header {
+    font-size: 64px;
+    font-family: "Open Sans";
+    background-color: #40b2cf;
+    color: aliceblue;
+    text-align: left;
+    padding: 16px;
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0px 4px 2px -2px gray;
+}
+
+.content {
+    background-color: aliceblue;
+    border-radius: 0px 0px 16px 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.questionContainer {
+    padding: 8px;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.questionHeader {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    font-style: italic;
+    color: rgb(68, 68, 68);
+}
+
+.questionText {
+    padding: 4px;
+    text-align: left;
+}
+
+.answer {
+    text-align: left;
+    padding-left: 32px;
+}
+
+.submitButton {
+    border-radius: 64px;
+    padding: 16px;
+    background-color: #40b2cf;
+    color:white;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #17a6ca;
+    transition-duration: 0.5s;
+}
+
+.correct {
+    background-color: rgb(167, 192, 167);
+}
+
+.incorrect {
+    background-color: rgb(192, 167, 167);
+}
