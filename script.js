@@ -1,4 +1,4 @@
-const correctAnswers = [3,2];
+const correctAnswers = [3,2,1,4];
 let correctQuestions = 0;
 
 let questionContainers = document.getElementsByClassName("questionContainer");
