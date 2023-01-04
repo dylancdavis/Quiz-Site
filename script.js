@@ -29,7 +29,7 @@ function checkAnswers() {
             }
         }
     }
-    document.querySelector(".scoreText").textContent = `You got ${correctQuestions} out of ${totalQuestions} correct!`
+    document.querySelector(".scoreText").textContent = `You got ${correctQuestions} out of ${totalQuestions} correct! (${correctQuestions*100/totalQuestions}%)`
     correctQuestions = 0;
 }
 
