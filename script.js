@@ -15,11 +15,10 @@ function checkAnswers() {
             ans.classList.remove("incorrect");
             let rBtn = ans.querySelector('input')
             if (rBtn.checked) {
-                let qNum = parseInt(rBtn.id.charAt(1))
+                let qNum = ans.getAttribute("data-question")
+                let aNum = ans.getAttribute("data-answer")
                 console.log("Question #" + qNum)
-                let aNum = parseInt(rBtn.id.charAt(3))
                 console.log("Answer #" + aNum)
-                console.log
                 if (correctAnswers[qNum-1] == aNum) {
                     correctQuestions++;
                     ans.classList.add("correct")

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mentorship Quiz</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,98 +13,85 @@
 </head>
 <body>
     <div class="paperBackground">
-        <div class="header">SCOTA Quiz</div>
+        <div class="header">SCOTA Mentorship Quiz</div>
         <div class="content">
             <div class="questionContainer">
                 <div class="questionHeader">Question 1</div>
                 <div class="questionText">Occupational Therapy mentoring relationships benefit:</div>
-                <div class="answer"><input type="radio" name="question1" id="q1a1"><label for="q1a1">A. The Mentee</label></div>
-                <div class="answer"><input type="radio" name="question1" id="q1a2"><label for="q1a2">B. The Mentor</label></div>
-                <div class="answer"><input type="radio" name="question1" id="q1a3"><label for="q1a3">C. Both the mentor and the mentee</label></div>
-                <div class="answer"><input type="radio" name="question1" id="q1a4"><label for="q1a4">D. Neither Mentors nor Mentees - Mentoring relationships are only beneficial to those
+                <div class="answer" data-question="1" data-answer="1"><input type="radio" name="question1" id="q1a1"><label for="q1a1">A. The Mentee</label></div>
+                <div class="answer" data-question="1" data-answer="2"><input type="radio" name="question1" id="q1a2"><label for="q1a2">B. The Mentor</label></div>
+                <div class="answer" data-question="1" data-answer="3"><input type="radio" name="question1" id="q1a3"><label for="q1a3">C. Both the mentor and the mentee</label></div>
+                <div class="answer" data-question="1" data-answer="4"><input type="radio" name="question1" id="q1a4"><label for="q1a4">D. Neither Mentors nor Mentees - Mentoring relationships are only beneficial to those
                     in academia</label></div>
             </div>
             <div class="questionContainer">
                 <div class="questionHeader">Question 2</div>
                 <div class="questionText">A Mentor <b>Is</b>:</div>
-                <div class="answer"><input type="radio" name="question2" id="q2a1"><label for="q2a1">A. A friend, therapist, or teacher; they take on a “parenting” role toward the mentee.</label></div>
-                <div class="answer"><input type="radio" name="question2" id="q2a2"><label for="q2a2">B. A role model, advisor, guide or teacher</label></div>
-                <div class="answer"><input type="radio" name="question2" id="q2a3"><label for="q2a3">C. A networking facilitator or catalyst, collaborative partner, clear communicator</label></div>
-                <div class="answer"><input type="radio" name="question2" id="q2a4"><label for="q2a4">D. Both B and C</label></div>
+                <div class="answer" data-question="2" data-answer="1"><input type="radio" name="question2" id="q2a1"><label for="q2a1">A. A friend, therapist, or teacher; they take on a “parenting” role toward the mentee.</label></div>
+                <div class="answer" data-question="2" data-answer="2"><input type="radio" name="question2" id="q2a2"><label for="q2a2">B. A role model, advisor, guide or teacher</label></div>
+                <div class="answer" data-question="2" data-answer="3"><input type="radio" name="question2" id="q2a3"><label for="q2a3">C. A networking facilitator or catalyst, collaborative partner, clear communicator</label></div>
+                <div class="answer" data-question="2" data-answer="4"><input type="radio" name="question2" id="q2a4"><label for="q2a4">D. Both B and C</label></div>
             </div>
             <div class="questionContainer">
                 <div class="questionHeader">Question 3</div>
-                <div class="questionText">Which of the following steps is <b>NOT</b> part of the process of cultivating the mentor /
-                    mentee relationship?</div>
-                <div class="answer"><input type="radio" name="question3" id="q3a1"><label for="q3a1">A. Establish ground rules / boundaries such as frequency of communication or meeting,
-                    confidentiality, accountability, and type of communication</label></div>
-                <div class="answer"><input type="radio" name="question3" id="q3a2"><label for="q3a2">B. Anticipate and communicate a timeline or duration of the mentoring relationship if
-                    relevant</label></div>
-                <div class="answer"><input type="radio" name="question3" id="q3a3"><label for="q3a3">C. Share personal data such as transcripts, professional documents, CV, and annual
-                    reviews from employers.</label></div>
-                <div class="answer"><input type="radio" name="question3" id="q3a4"><label for="q3a4">D. Share opportunities for networking / learning that facilitate professional growth or
-                    are in alignment with goals.</label></div>
+                <div class="questionText">Which of the following steps is <b>NOT</b> part of the process of cultivating the mentor / mentee relationship?</div>
+                <div class="answer" data-question="3" data-answer="1"><input type="radio" name="question3" id="q3a1"><label for="q3a1">A. Establish ground rules / boundaries such as frequency of communication or meeting, confidentiality, accountability, and type of communication</label></div>
+                <div class="answer" data-question="3" data-answer="2"><input type="radio" name="question3" id="q3a2"><label for="q3a2">B. Anticipate and communicate a timeline or duration of the mentoring relationship if relevant</label></div>
+                <div class="answer" data-question="3" data-answer="3"><input type="radio" name="question3" id="q3a3"><label for="q3a3">C. Share personal data such as transcripts, professional documents, CV, and annual reviews from employers.</label></div>
+                <div class="answer" data-question="3" data-answer="4"><input type="radio" name="question3" id="q3a4"><label for="q3a4">D. Share opportunities for networking / learning that facilitate professional growth or are in alignment with goals.</label></div>
             </div>
             <div class="questionContainer">
                 <div class="questionHeader">Question 4</div>
                 <div class="questionText">The benefits of mentoring can include:</div>
-                <div class="answer"><input type="radio" name="question4" id="q4a1"><label for="q4a1">A. A means of supplementing biweekly pay or annual salary</label></div>
-                <div class="answer"><input type="radio" name="question4" id="q4a2"><label for="q4a2">B. Continuing education credit through the NBCOT</label></div>
-                <div class="answer"><input type="radio" name="question4" id="q4a3"><label for="q4a3">C. Leadership skills development</label></div>
-                <div class="answer"><input type="radio" name="question4" id="q4a4"><label for="q4a4">D. Exposure to new ideas and knowledge</label></div>
+                <div class="answer" data-question="4" data-answer="1"><input type="radio" name="question4" id="q4a1"><label for="q4a1">A. A means of supplementing biweekly pay or annual salary</label></div>
+                <div class="answer" data-question="4" data-answer="2"><input type="radio" name="question4" id="q4a2"><label for="q4a2">B. Continuing education credit through the NBCOT</label></div>
+                <div class="answer" data-question="4" data-answer="3"><input type="radio" name="question4" id="q4a3"><label for="q4a3">C. Leadership skills development</label></div>
+                <div class="answer" data-question="4" data-answer="4"><input type="radio" name="question4" id="q4a4"><label for="q4a4">D. Exposure to new ideas and knowledge</label></div>
             </div>
             <div class="questionContainer">
                 <div class="questionHeader">Question 5</div>
                 <div class="questionText">"Reflective Practice"…</div>
-                <div class="answer"><input type="radio" name="question5" id="q5a1"><label for="q5a1">A. …is an important component of the mentor / mentee relationship</label></div>
-                <div class="answer"><input type="radio" name="question5" id="q5a2"><label for="q5a2">B. …should be intentional and personal</label></div>
-                <div class="answer"><input type="radio" name="question5" id="q5a3"><label for="q5a3">C. …is practiced with the goal of learning and growing</label></div>
-                <div class="answer"><input type="radio" name="question5" id="q5a4"><label for="q5a4">D. …is only relevant to those practitioners incorporating mindfulness into their practice</label></div>
+                <div class="answer" data-question="5" data-answer="1"><input type="radio" name="question5" id="q5a1"><label for="q5a1">A. …is an important component of the mentor / mentee relationship</label></div>
+                <div class="answer" data-question="5" data-answer="2"><input type="radio" name="question5" id="q5a2"><label for="q5a2">B. …should be intentional and personal</label></div>
+                <div class="answer" data-question="5" data-answer="3"><input type="radio" name="question5" id="q5a3"><label for="q5a3">C. …is practiced with the goal of learning and growing</label></div>
+                <div class="answer" data-question="5" data-answer="4"><input type="radio" name="question5" id="q5a4"><label for="q5a4">D. …is only relevant to those practitioners incorporating mindfulness into their practice</label></div>
             </div>
             <div class="questionContainer">
                 <div class="questionHeader">Question 6</div>
                 <div class="questionText">All of the following are key characteristics of adult learning except:</div>
-                <div class="answer"><input type="radio" name="question6" id="q6a1"><label for="q6a1">A. It should be self-directed and autonomous</label></div>
-                <div class="answer"><input type="radio" name="question6" id="q6a2"><label for="q6a2">B. There should be an emphasis on knowledge over experience</label></div>
-                <div class="answer"><input type="radio" name="question6" id="q6a3"><label for="q6a3">C. It should be goal-oriented</label></div>
-                <div class="answer"><input type="radio" name="question6" id="q6a4"><label for="q6a4">D. It should involve practical application</label></div>
+                <div class="answer" data-question="6" data-answer="1"><input type="radio" name="question6" id="q6a1"><label for="q6a1">A. It should be self-directed and autonomous</label></div>
+                <div class="answer" data-question="6" data-answer="2"><input type="radio" name="question6" id="q6a2"><label for="q6a2">B. There should be an emphasis on knowledge over experience</label></div>
+                <div class="answer" data-question="6" data-answer="3"><input type="radio" name="question6" id="q6a3"><label for="q6a3">C. It should be goal-oriented</label></div>
+                <div class="answer" data-question="6" data-answer="4"><input type="radio" name="question6" id="q6a4"><label for="q6a4">D. It should involve practical application</label></div>
             </div>
             <div class="questionContainer">
                 <div class="questionHeader">Question 7</div>
-                <div class="questionText">T/F: The online CE course, <em>A Mindful Path to Leadership Series Module 3: Mentoring and
-                    Leadership</em> is a mandatory course for mentors.</div>
-                <div class="answer"><input type="radio" name="question7" id="q7a1"><label for="q7a1">True</label></div>
-                <div class="answer"><input type="radio" name="question7" id="q7a2"><label for="q7a2">False</label></div>
+                <div class="questionText">T/F: The online CE course, <em>A Mindful Path to Leadership Series Module 3: Mentoring and Leadership</em> is a mandatory course for mentors.</div>
+                <div class="answer" data-question="7" data-answer="1"><input type="radio" name="question7" id="q7a1"><label for="q7a1">True</label></div>
+                <div class="answer" data-question="7" data-answer="2"><input type="radio" name="question7" id="q7a2"><label for="q7a2">False</label></div>
             </div>
             <div class="questionContainer">
                 <div class="questionHeader">Question 8</div>
                 <div class="questionText">All of the following are benefits of personality tests in terms of providing mentorship except:</div>
-                <div class="answer"><input type="radio" name="question8" id="q8a1"><label for="q8a1">A. Determining whether or not you will get along with your mentee.</label></div>
-                <div class="answer"><input type="radio" name="question8" id="q8a2"><label for="q8a2">B. Developing insight into your own style of teaching</label></div>
-                <div class="answer"><input type="radio" name="question8" id="q8a3"><label for="q8a3">C. Developing insight into your mentee's unique learning styles</label></div>
+                <div class="answer" data-question="8" data-answer="1"><input type="radio" name="question8" id="q8a1"><label for="q8a1">A. Determining whether or not you will get along with your mentee.</label></div>
+                <div class="answer" data-question="8" data-answer="2"><input type="radio" name="question8" id="q8a2"><label for="q8a2">B. Developing insight into your own style of teaching</label></div>
+                <div class="answer" data-question="8" data-answer="3"><input type="radio" name="question8" id="q8a3"><label for="q8a3">C. Developing insight into your mentee's unique learning styles</label></div>
             </div>
             <div class="questionContainer">
                 <div class="questionHeader">Question 9</div>
-                <div class="questionText">Which of the following statements is <b>NOT</b> true about concluding the
-                    mentoring relationship:</div>
-                <div class="answer"><input type="radio" name="question9" id="q9a1"><label for="q9a1">A. Is part of an ongoing process of goals assessment so that both the
-                    mentor and the mentee are prepared for transition out of the mentoring
-                    relationship.</label></div>
-                <div class="answer"><input type="radio" name="question9" id="q9a2"><label for="q9a2">B. Occurs when the mentor gets a pay raise at his or her job</label></div>
-                <div class="answer"><input type="radio" name="question9" id="q9a3"><label for="q9a3">C. Provides an opportunity for reflection and assessment of the
-                    mentoring relationship</label></div>
-                <div class="answer"><input type="radio" name="question9" id="q9a4"><label for="q9a4">D. Is a good time to evaluate personal growth for both parties</label></div>
+                <div class="questionText">Which of the following statements is <b>NOT</b> true about concluding the mentoring relationship:</div>
+                <div class="answer" data-question="9" data-answer="1"><input type="radio" name="question9" id="q9a1"><label for="q9a1">A. Is part of an ongoing process of goals assessment so that both the mentor and the mentee are prepared for transition out of the mentoring relationship.</label></div>
+                <div class="answer" data-question="9" data-answer="2"><input type="radio" name="question9" id="q9a2"><label for="q9a2">B. Occurs when the mentor gets a pay raise at his or her job</label></div>
+                <div class="answer" data-question="9" data-answer="3"><input type="radio" name="question9" id="q9a3"><label for="q9a3">C. Provides an opportunity for reflection and assessment of the mentoring relationship</label></div>
+                <div class="answer" data-question="9" data-answer="4"><input type="radio" name="question9" id="q9a4"><label for="q9a4">D. Is a good time to evaluate personal growth for both parties</label></div>
             </div>
             <div class="questionContainer">
                 <div class="questionHeader">Question 10</div>
-                <div class="questionText">The NBCOT awards PDUs (Professional Development Units) for
-                    mentoring as follows:</div>
-                <div class="answer"><input type="radio" name="question10" id="q10a1"><label for="q10a1">A. 8 hours of mentoring a colleague results in 2 PDUs</label></div>
-                <div class="answer"><input type="radio" name="question10" id="q10a2"><label for="q10a2">B. At a maximum of 2 hours per renewal cycle</label></div>
-                <div class="answer"><input type="radio" name="question10" id="q10a3"><label for="q10a3">C. PDUs are only available to mentors, not mentees</label></div>
-                <div class="answer"><input type="radio" name="question10" id="q10a4"><label for="q10a4">D. 2 hours of mentoring or receiving mentoring from a certified OT in
-                    good standing is equivalent to 1 PDU and can be accrued by a mentor or
-                    mentee at a maximum of 18 units per renewal cycle.</label></div>
+                <div class="questionText">The NBCOT awards PDUs (Professional Development Units) for mentoring as follows:</div>
+                <div class="answer" data-question="10" data-answer="1"><input type="radio" name="question10" id="q10a1"><label for="q10a1">A. 8 hours of mentoring a colleague results in 2 PDUs</label></div>
+                <div class="answer" data-question="10" data-answer="2"><input type="radio" name="question10" id="q10a2"><label for="q10a2">B. At a maximum of 2 hours per renewal cycle</label></div>
+                <div class="answer" data-question="10" data-answer="3"><input type="radio" name="question10" id="q10a3"><label for="q10a3">C. PDUs are only available to mentors, not mentees</label></div>
+                <div class="answer" data-question="10" data-answer="4"><input type="radio" name="question10" id="q10a4"><label for="q10a4">D. 2 hours of mentoring or receiving mentoring from a certified OT in good standing is equivalent to 1 PDU and can be accrued by a mentor or mentee at a maximum of 18 units per renewal cycle.</label></div>
             </div>
             <div class="submitContainer"><button class="submitButton">Submit Answers</button></div>
             <div class="scoreText"></div>
